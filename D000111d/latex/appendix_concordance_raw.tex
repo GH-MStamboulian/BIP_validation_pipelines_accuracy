@@ -1,0 +1,70 @@
+\section{Call Concordance Tables}
+\label{a:call_concordance_tables_raw}
+
+ \captionsetup{width=.65\textwidth}
+ \begin{table}[H]
+ \centering
+ \caption{\textbf{Call comparison types.}}
+  \label{t:collection12_concordance_types}
+ \begin{tabular}{|c|c|c|}
+      \hline
+       & \textbf{G360 CDx+} & \textbf{G360 CDx-} \\ \hline
+      \textbf{LBP70+} & $a$ & $b$ \\ \hline
+      \textbf{LBP70-} & $c$ & $d$ \\ \hline
+ \end{tabular}
+ \caption*{The variables
+ in each cell of the table represent the number of calls. For example,
+ $b$ is the number of calls negative by G360 CDx and positive by LBP70.}
+ \end{table}
+ 
+\begin{enumerate}
+        \item PPA and NPA for each sample collection and variant category
+		 
+		 \captionsetup{justification=raggedright, singlelinecheck=off,skip=0pt}
+		 \begin{table}[H]
+		 \centering
+		 \begin{threeparttable}
+		 \caption{\textbf{PPA and NPA for each sample collection and variant category.}}
+		 \label{t:coll123_variant_category_raw_binomial_2test}
+		 \input{tables/coll123_variant_category_raw_binomial_2test.tex}
+		 \caption*{SC indicates the sample collection. $a$, $b$, $c$, and $d$ are defined 
+		  in \cref{t:collection12_concordance_types}. The 95\% Clopper-Pearson intervals are
+		  shown in parantheses with the PPA and NPA values.}
+		 \end{threeparttable}
+		 \end{table}
+
+	\item PPA and NPA for each sample collection and variant class
+	
+		 \begin{table}[H]
+		 \centering
+		 \begin{threeparttable}
+		 \caption{\textbf{Sample collection 1, call concordance by variant class.}}
+		 \label{t:coll1_variant_classspecial_raw_binomial_2test}
+		 \input{tables/coll1_variant_classspecial_raw_binomial_2test.tex}
+		 \caption*{SC 
+		 indicates the sample collection. $a$, $b$, $c$, and $d$ are 
+		 defined in \cref{t:collection12_concordance_types}. 
+		 The 95\% Clopper-Pearson inteveras are
+		  shown in parantheses with the PPA and NPA values.}
+		 \end{threeparttable}
+		 \end{table}
+		 
+		 \begin{table}[H]
+		 \centering
+		 \begin{threeparttable}
+		 \caption{\textbf{Sample collection 2, call concordance by variant class.}}
+		 \label{t:coll2_variant_classspecial_raw_binomial_2test}
+		 \input{tables/coll2_variant_classspecial_raw_binomial_2test.tex}
+		 \end{threeparttable}
+		 \end{table}
+		 
+		 \begin{table}[H]
+		 \centering
+		 \begin{threeparttable}
+		 \caption{\textbf{Sample collection 3, call concordance by variant class.}}
+		 \label{t:coll3_variant_classspecial_raw_binomial_2test}
+		 \input{tables/coll3_variant_classspecial_raw_binomial_2test.tex}
+		 \end{threeparttable}
+		 \end{table}
+		 
+\end{enumerate}

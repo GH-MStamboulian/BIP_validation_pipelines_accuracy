@@ -1,0 +1,7 @@
+		Acceptable LLCI PPA	CDx+ LBP70+	CDx{\textminus} LBP70+	PPA	LLCI	ULCI
+Clinically Relevant	SNV	72.0	192	14	93.2	88.9	96.2
+Clinically Relevant	Indel	72.0	89	15	85.6	77.3	91.7
+Clinically Relevant	CNA	60.0	28	0	100.0	87.7	100.0
+Clinically Relevant	Fusion	70.0	37	1	97.4	86.2	99.9
+Panel-wide	SNV	74.0	1203	273	81.5	79.4	83.5
+Panel-wide	Indel	76.0	241	56	81.1	76.2	85.4

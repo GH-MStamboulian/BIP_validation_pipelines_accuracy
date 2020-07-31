@@ -1,0 +1,119 @@
+category:
+  n_var:
+    ? &id001 !!python/tuple
+    - false
+    - indel
+    : 44150
+    ? &id002 !!python/tuple
+    - false
+    - snv
+    : 38560
+    ? &id003 !!python/tuple
+    - true
+    - cnv
+    : 2
+    ? &id004 !!python/tuple
+    - true
+    - fusion
+    : 4
+    ? &id005 !!python/tuple
+    - true
+    - indel
+    : 94
+    ? &id006 !!python/tuple
+    - true
+    - snv
+    : 77
+  n_var_protocol:
+    *id001: 8101
+    *id002: 36744
+    *id003: 2
+    *id004: 4
+    *id005: 685
+    *id006: 1166
+  prior:
+    *id001: 4.0e-05
+    *id002: 5.9e-05
+    *id003: 0.116904
+    *id004: 0.002542
+    *id005: 8.9e-05
+    *id006: 0.000232
+  var_per_sample:
+    *id001: 0.322
+    *id002: 2.182
+    *id003: 0.234
+    *id004: 0.01
+    *id005: 0.061
+    *id006: 0.271
+clinical_class:
+  n_var:
+    alk_fusion: 1
+    braf_activating_snvs: 1
+    brca1_inactivating_indel: 22
+    brca1_inactivating_snv: 27
+    brca2_inactivating_indel: 54
+    brca2_inactivating_snv: 17
+    egfr_activating_indel: 8
+    egfr_l858r: 1
+    egfr_t790m: 1
+    erbb2_activating_indel: 3
+    erbb2_amplification: 1
+    kras_activating_snvs: 13
+    met_amplification: 1
+    nras_activating_snvs: 11
+    ntrk1_fusion: 1
+    other_egfr_activating_indel: 7
+    other_egfr_activating_snvs: 6
+    ret_fusion: 4
+    ros1_fusion: 4
+  prior:
+    alk_fusion: 0.010129274161956461
+    braf_activating_snvs: 0.0054657041058070776
+    brca1_inactivating_indel: 9.43077500243542e-05
+    brca1_inactivating_snv: 6.802379771555825e-05
+    brca2_inactivating_indel: 9.008144985781485e-05
+    brca2_inactivating_snv: 6.850623599722888e-05
+    egfr_activating_indel: 0.0008082502071083817
+    egfr_l858r: 0.03016397112317421
+    egfr_t790m: 0.026974089204768036
+    erbb2_activating_indel: 0.0004850112858395359
+    erbb2_amplification: 0.026862163523420447
+    kras_activating_snvs: 0.005246998751449727
+    met_amplification: 0.053164698640102974
+    nras_activating_snvs: 0.0010106230639326077
+    ntrk1_fusion: 0.0008954054507806816
+    other_egfr_activating_indel: 0.00014753839813999868
+    other_egfr_activating_snvs: 0.0015762866789784916
+    ret_fusion: 0.0035816218031227264
+    ros1_fusion: 0.002126587945604119
+  var_per_sample:
+    alk_fusion: 0.010129274161956461
+    braf_activating_snvs: 0.016397112317421234
+    brca1_inactivating_indel: 0.010185237002630253
+    brca1_inactivating_snv: 0.007890760535004758
+    brca2_inactivating_indel: 0.024231910011752195
+    brca2_inactivating_snv: 0.00794672337567855
+    egfr_activating_indel: 0.04930326263361128
+    egfr_l858r: 0.03016397112317421
+    egfr_t790m: 0.026974089204768036
+    erbb2_activating_indel: 0.004365101572555823
+    erbb2_amplification: 0.026862163523420447
+    kras_activating_snvs: 0.15216296379204208
+    met_amplification: 0.053164698640102974
+    nras_activating_snvs: 0.017180592086854327
+    ntrk1_fusion: 0.0008954054507806816
+    other_egfr_activating_indel: 0.004868767138619956
+    other_egfr_activating_snvs: 0.00945772007387095
+    ret_fusion: 0.0035816218031227264
+    ros1_fusion: 0.002126587945604119
+special:
+  n_var:
+    homopolymer: 92
+    long_indel: 12
+  prior:
+    homopolymer: 0.00016054144517314246
+    long_indel: 6.043986792769601e-05
+  var_per_sample:
+    homopolymer: 0.057473837371985005
+    long_indel: 0.0075549834909620014
+

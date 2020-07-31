@@ -1,0 +1,45 @@
+\section{Collection 3 Call Concordance, conditioning on G360 LDT results}
+\label{a:call_concordance_tables}
+
+The PPA and NPA values in this section were calculated according to the
+parameters and equations in Section 10.4.5 of \textbf{D-000111}.
+
+ \captionsetup{width=.65\textwidth}
+ \begin{table}[H]
+ \centering
+ \begin{tabular}{cc|c|c|c}
+ 	   & \multicolumn{2}{c|}{G360 LDT+} & \multicolumn{2}{c}{G360 LDT-} \\
+       & G360 CDx+ & G360 CDx- & G360 CDx+ & G360 CDx- \\ \cline{2-5}
+      LBP70+ & $a_1$ & $b_1$ & $a_0$ & $b_0$ \\ \cline{2-5}
+      LBP70- & $c_1$ & $d_1$ & $c_0$ & $d_0$ \\
+ \end{tabular}
+ \caption[Sample collection 3 call comparison types]
+ {\textbf{Sample collection 3 call comparison types} The variables
+ in each cell of the table represent the number of calls. For example,
+ $b_1$ is the number of calls positive by G360 LDT, negative by G360 CDx, and positive
+ by LBP70}
+ \label{t:collection3_concordance_types}
+ \end{table}
+
+ \captionsetup{width=.9\textwidth}
+ \begin{table}[H]
+ \centering
+ \footnotesize
+ \input{tables/coll3_variant_category_cond_bootstrap_3test.tex}
+ \caption[Sample collection 3 call concordance]
+ {\textbf{Sample collection 3 call concordance.}
+ $a_0$, $b_0$, $c_0$, $d_0$, $a_1$, $b_1$, $c_1$, and $d_1$ are defined in
+ \cref{t:collection3_concordance_types}. The 95\% bootstrap confidence intervals 
+  for PPA and NPA are in parantheses.}
+ \label{t:coll3_variant_category_cond_bootstrap_3test}
+ \end{table}
+
+ \captionsetup{width=.95\textwidth}
+ \begin{table}[H]
+ \footnotesize
+ \centering
+ \input{tables/coll3_variant_classspecial_cond_bootstrap_3test.tex}
+ \caption[Sample collection 3, call concordance by variant class]
+ {\textbf{Sample collection 3, call concordance by variant class.}}
+ \label{t:coll3_variant_classspecial_cond_bootstrap_3test}
+ \end{table}
