@@ -1,1 +1,1 @@
-{"duration": 0.332489013671875, "input_args": {"conc_vector": "array([0, 0, 0, ..., 0, 0, 0])", "n_tests": "3", "n_boot": "100000", "prior_freq": "0.053164698640102974"}}
+{"duration": 0.34371495246887207, "input_args": {"conc_vector": "array([0, 0, 0, ..., 0, 0, 0])", "n_tests": "3", "n_boot": "100000", "prior_freq": "0.053164698640102974"}}

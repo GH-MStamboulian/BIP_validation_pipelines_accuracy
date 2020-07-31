@@ -4,6 +4,10 @@ import shutil
 import os
 import subprocess
 
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
 class CustomFormatter(argparse.RawDescriptionHelpFormatter):
     pass
 
