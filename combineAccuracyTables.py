@@ -43,7 +43,7 @@ PPA_merged_df['bip:' + version1+ 'CDx-/LBP70+'], PPA_merged_df['bip:' + version2
 PPA_merged_df['bip:' + version1+ ' PPA'], PPA_merged_df['bip:' + version2+ ' PPA'] = roundVals(ppa_tab_df1['PPA']), roundVals(ppa_tab_df2['PPA'])
 PPA_merged_df['LLCI'], PPA_merged_df['ULCI']  = roundVals(ppa_tab_df1['LLCI']), roundVals(ppa_tab_df2['ULCI'])
 
-PPA_merged_df.to_csv(out_dir + 'accuracy_PPA_merged_table.tsv', sep = '\t', index = False)
+PPA_merged_df.to_csv(out_dir + 'accuracy_PPA_merged_table_1_bip_'+version1+'_2_bip_'+version2+'.tsv', sep = '\t', index = False)
 
 #######################
 ##  Merged Accuracy NPA
@@ -59,7 +59,7 @@ NPA_merged_df['bip:' + version1+ 'CDx-/LBP70-'], NPA_merged_df['bip:' + version2
 NPA_merged_df['bip:' + version1+ ' NPA'], NPA_merged_df['bip:' + version2+ ' NPA'] = roundVals(npa_tab_df1['NPA']), roundVals(npa_tab_df2['NPA'])
 NPA_merged_df['LLCI'], NPA_merged_df['ULCI']  = roundVals(npa_tab_df1['LLCI']), roundVals(npa_tab_df2['ULCI'])
 
-NPA_merged_df.to_csv(out_dir + 'accuracy_NPA_merged_table.tsv', sep = '\t', index = False)
+NPA_merged_df.to_csv(out_dir + 'accuracy_NPA_merged_table_1_bip_'+version1+'_2_bip_'+version2+'.tsv', sep = '\t', index = False)
 
 
 ################
